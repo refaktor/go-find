@@ -243,7 +243,7 @@ func getFileSystemType(paths ...string) []string {
 			continue
 		}
 
-		fsTypes = append(fsTypes, FsTypeMap[stat.Type])
+		fsTypes = append(fsTypes, FsTypeMap[int64(stat.Type)])
 	}
 
 	return fsTypes
