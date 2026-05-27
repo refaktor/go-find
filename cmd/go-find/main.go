@@ -10,7 +10,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/jaytaylor/go-find"
+	"github.com/refaktor/go-find"
 )
 
 var (
