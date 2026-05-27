@@ -1,4 +1,4 @@
-module github.com/jaytaylor/go-find
+module github.com/refaktor/go-find
 
 go 1.18
 
